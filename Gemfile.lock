@@ -10,6 +10,8 @@ GEM
     rack (2.2.3)
     rack-protection (2.1.0)
       rack
+    rack-test (1.1.0)
+      rack (>= 1.0, < 3)
     rspec (3.10.0)
       rspec-core (~> 3.10.0)
       rspec-expectations (~> 3.10.0)
@@ -48,6 +50,7 @@ PLATFORMS
 
 DEPENDENCIES
   json
+  rack-test
   rspec (~> 3.0)
   simplecov
   sinatra
